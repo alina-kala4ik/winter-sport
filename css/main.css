@@ -547,7 +547,6 @@ input:not([type="submit"]),
 textarea {
     border: 3px solid #eeeeee;
     padding: 15px;
-    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
 }
 
