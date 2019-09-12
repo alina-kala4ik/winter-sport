@@ -94,7 +94,7 @@ form.search {
 form.search input[type="search"] {
     border-style: solid none solid solid;
     width: calc(100% - 48px);
-    height: 46px;
+    height: 52px;
 }
 
 form.search button {
@@ -106,7 +106,7 @@ form.search button {
     font-size: 18px;
     padding: 0 15px;
     margin-left: -3px;
-    height: 46px;
+    height: 52px;
 }
 
 form.search input[type="search"]:focus + button {

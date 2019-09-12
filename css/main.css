@@ -1360,6 +1360,7 @@ form.send-search button {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50px;
     flex: 0 0 50px;
+    margin-left: -3px;
 }
 
 form.send-search button:hover {
