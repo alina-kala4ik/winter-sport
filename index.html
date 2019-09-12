@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>WINTER SPORT</title>
+    <link rel="stylesheet" href="./css/main.css" type="text/css">
+    <link rel="stylesheet" href="./css/index.css" type="text/css">
+    <meta name="viewport" content="width=device-width, height=device-height, target-densitydpi=device-dpi, initial-scale=1">
+    <link rel="icon" href="./images/logo-icon-black.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap" rel="stylesheet" type="text/css">
+    <link href="./slick/slick-theme.css" type="text/css" rel="stylesheet">
+    <link href="./slick/slick.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="popup-menu">
+        <ul>
+            <li>
+                <a href="./index.html">Главная</a>
+                <span class="icon-chevron-right-solid"></span>
+            </li>
+            <li>
+                <a href="./html/products-cards.html">Каталог</a>
+                <span class="icon-chevron-right-solid"></span>
+            </li>
+            <li>
+                <a href="./html/blog.html">Блог</a>
+                <span class="icon-chevron-right-solid"></span>
+            </li>
+            <li>
+                <a href="./html/contact.html">Контакты</a>
+                <span class="icon-chevron-right-solid"></span>
+            </li>
+            <a href="#"><span class="icon-times-solid"></span></a>
+        </ul>
+    </nav>
+
+
+    <div class="popup-search">
+        <form>
+            <input type=text name="rearch" placeholder="поиск" class="heading3">
+            <a href="./html/search-results.html"><span class="icon-search-solid"></span></a>
+        </form>
+        <a href="#"><span class="icon-times-solid"></span></a>
+    </div>
+
+    <div class="popup-user">
+        <div>
+            <input type="radio" name="popup-user-button" checked class="popup-user-input" id="popup-user-input1">
+            <label for="popup-user-input1" class="popup-user-button">Вход</label>
+            <form class="log-in" method="get">
+                <input type="email" name="email-log-in" autocomplete="email" placeholder="введите ваш e-mail" required>
+                <input type="password" name="passwor-log-in" placeholder="пароль" required>
+                <a href="">Забыли ваш пароли или логин?</a>
+                <input type="submit" value="вход">
+            </form>
+
+            <input type="radio" name="popup-user-button" id="popup-user-input2" class="popup-user-input">
+            <label for="popup-user-input2" class="popup-user-button">Регистрация</label>
+            <form class="sing-up" method="get">
+                <input type="email" name="email-sing-up" autocomplete="email" placeholder="введите ваш e-mail" required>
+                <input type="password" name="passwor-sing-up" placeholder="пароль" required>
+                <input type="password" name="password-sing-up" placeholder="Повторите пароль" required>
+                <input type="submit" value="создать аккаунт">
+                <span>или</span>
+                <div class="social">
+                    <a href="https://www.facebook.com/" class="facebook" target="_blank"><span class="icon-facebook-f-brands"></span></a>
+                    <a href="https://twitter.com/" class="twitter" target="_blank"><span class="icon-twitter-brands"></span></a>
+                    <a href="https://www.google.ru" class="google" target="_blank"><span class="icon-google-plus-g-brands"></span></a>
+                    <a href="https://www.linkedin.com/" class="linkedin" target="_blank"><span class="icon-linkedin-in-brands"></span></a>
+                    <a href="https://www.instagram.com/" class="instagram" target="_blank"><span class="icon-instagram-brands"></span></a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <header class="header-index">
+        <div class="header-top center">
+            <div>
+                <a href="" class="menu"><span class="icon-bars-solid"></span></a>
+                <a href="#" class="search"><span class="icon-search-solid"></span></a>
+            </div>
+
+            <a href="./index.html" class="logo-black heading12 logo">WINTER<img src="./images/logo-icon-black.png" alt="&#10052;">SPORT</a>
+
+            <div>
+                <a href="#" class="user"><span class="icon-user-solid"></span></a>
+                <a href="./html/404.html" class="basket"><span class="icon-shopping-cart-solid"></span></a>
+            </div>
+        </div>
+
+        <h1><span>winter</span><img src="./images/jumpsnow.png" alt="&#10052;"><span>Sport</span></h1>
+
+        <div class="header-bottom">
+            <div class="center button-for-popup-background">
+                <ul class="first-level">
+                    <li>
+                        <a href="./html/products-cards.html"><span class="icon-tabla-de-snowboard"></span>сноуборды</a>
+                        <ul class="second-level left">
+                            <li><a href="./html/products-cards.html">мужские сноуборды</a></li>
+                            <li><a href="./html/products-cards.html">женские сноуборды</a></li>
+                            <li><a href="./html/products-cards.html">детские сноуборды</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./html/products-cards.html"><span class="icon-accesorio"></span>маски</a>
+                        <ul class="second-level left">
+                            <li><a href="./html/products-cards.html">мужские маски</a></li>
+                            <li><a href="./html/products-cards.html">женские маски</a></li>
+                            <li><a href="./html/products-cards.html">детские маски</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./html/products-cards.html"><span class="icon-bota"></span>ботинки</a>
+                        <ul class="second-level left">
+                            <li><a href="./html/products-cards.html">мужские ботинки</a></li>
+                            <li><a href="./html/products-cards.html">женские ботинки</a></li>
+                            <li><a href="./html/products-cards.html">детские ботинки</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./html/products-cards.html"><span class="icon-camisa-de-entrenamiento"></span>одежда</a>
+                        <ul class="second-level right">
+                            <li>
+                                <a href="./html/products-cards.html">мужская одежда</a>
+                                <ul class="third-level">
+                                    <li><a href="./html/products-cards.html">куртки</a></li>
+                                    <li><a href="./html/products-cards.html">штаны</a></li>
+                                    <li><a href="./html/products-cards.html">термобелье</a></li>
+                                    <li><a href="./html/products-cards.html">толстовки и флис</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="./html/products-cards.html">женская одежда</a>
+                                <ul class="third-level">
+                                    <li><a href="./html/products-cards.html">куртки</a></li>
+                                    <li><a href="./html/products-cards.html">штаны</a></li>
+                                    <li><a href="./html/products-cards.html">термобелье</a></li>
+                                    <li><a href="./html/products-cards.html">толстовки и флис</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="./html/products-cards.html">детская одежда</a>
+                                <ul class="third-level">
+                                    <li><a href="./html/products-cards.html">куртки</a></li>
+                                    <li><a href="./html/products-cards.html">штаны</a></li>
+                                    <li><a href="./html/products-cards.html">термобелье</a></li>
+                                    <li><a href="./html/products-cards.html">толстовки и флис</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./html/products-cards.html"><span class="icon-mitones"></span>аксессуары</a>
+                        <ul class="second-level right">
+                            <li>
+                                <a href="./html/products-cards.html">мужские аксессуары</a>
+                                <ul class="third-level">
+                                    <li><a href="./html/products-cards.html">балаклавы</a></li>
+                                    <li><a href="./html/products-cards.html">шапки</a></li>
+                                    <li><a href="./html/products-cards.html">варежки</a></li>
+                                    <li><a href="./html/products-cards.html">перчатки</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="./html/products-cards.html">женские аксессуары</a>
+                                <ul class="third-level">
+                                    <li><a href="./html/products-cards.html">балаклавы</a></li>
+                                    <li><a href="./html/products-cards.html">шапки</a></li>
+                                    <li><a href="./html/products-cards.html">варежки</a></li>
+                                    <li><a href="./html/products-cards.html">перчатки</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="./html/products-cards.html">детские аксессуары</a>
+                                <ul class="third-level">
+                                    <li><a href="./html/products-cards.html">балаклавы</a></li>
+                                    <li><a href="./html/products-cards.html">шапки</a></li>
+                                    <li><a href="./html/products-cards.html">варежки</a></li>
+                                    <li><a href="./html/products-cards.html">перчатки</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./html/products-cards.html"><span class="icon-casco"></span>шлемы</a>
+                        <ul class="second-level right">
+                            <li><a href="./html/products-cards.html">мужские шлемы</a></li>
+                            <li><a href="./html/products-cards.html">женские шлемы</a></li>
+                            <li><a href="./html/products-cards.html">детские шлемы</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div id="popup-background"></div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <main>
+        <h2 class="title-slider">Новинки</h2>
+        <div class="slider center">
+            <div class="poduct">
+                <div class="image">
+                    <img src="./images/products/prodact-mini/1.jpg" alt="Куртка ROXY">
+                    <div class="poduct-button">
+                        <div class="stars">
+                            <svg width="132" height="24">
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 13.652477264405233,12.035745620727331) " id="svg_1" d="m2.954694,9.824111l8.172437,0l2.525346,-7.15708l2.525347,7.15708l8.172436,0l-6.611629,4.423268l2.525477,7.15708l-6.611632,-4.423389l-6.61163,4.423389l2.525477,-7.15708l-6.611631,-4.423268z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 39.941715240477755,12.035745620726356) " id="svg_2" d="m29.244003,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 66.35674285888692,12.0357456207278) " id="svg_3" d="m55.659099,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 92.64598083496068,12.035745620728708) " id="svg_4" d="m81.948413,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 118.68364715576165,12.035745620728184) " id="svg_5" d="m107.98615,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-off" />
+                            </svg>
+                        </div>
+                        <a href="./html/products-about.html" class="about-product"><span class="icon-search-solid"></span></a>
+                        <a href="#" class="add-to-cart"><span class="icon-shopping-cart-solid"></span></a>
+                    </div>
+                </div>
+                <h13>Куртка ROXY</h13>
+                <h11>500 BYN</h11>
+            </div>
+            <div class="poduct">
+                <div class="image">
+                    <img src="./images/products/prodact-mini/2.jpg" alt="Куртка ROXY">
+                    <div class="poduct-button">
+                        <div class="stars">
+                            <svg width="132" height="24">
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 13.652477264405233,12.035745620727331) " d="m2.954694,9.824111l8.172437,0l2.525346,-7.15708l2.525347,7.15708l8.172436,0l-6.611629,4.423268l2.525477,7.15708l-6.611632,-4.423389l-6.61163,4.423389l2.525477,-7.15708l-6.611631,-4.423268z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 39.941715240477755,12.035745620726356) " d="m29.244003,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 66.35674285888692,12.0357456207278) " d="m55.659099,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 92.64598083496068,12.035745620728708) " d="m81.948413,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 118.68364715576165,12.035745620728184) " d="m107.98615,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-off" />
+                            </svg>
+                        </div>
+                        <a href="./html/products-about.html" class="about-product"><span class="icon-search-solid"></span></a>
+                        <a href="#" class="add-to-cart"><span class="icon-shopping-cart-solid"></span></a>
+                    </div>
+                </div>
+                <h13>Куртка ROXY</h13>
+                <h11>300 BYN</h11>
+            </div>
+            <div class="poduct">
+                <div class="image">
+                    <img src="./images/products/prodact-mini/3.jpg" alt="Штаны ROXY">
+                    <div class="poduct-button">
+                        <div class="stars">
+                            <svg width="132" height="24">
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 13.652477264405233,12.035745620727331) " d="m2.954694,9.824111l8.172437,0l2.525346,-7.15708l2.525347,7.15708l8.172436,0l-6.611629,4.423268l2.525477,7.15708l-6.611632,-4.423389l-6.61163,4.423389l2.525477,-7.15708l-6.611631,-4.423268z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 39.941715240477755,12.035745620726356) " d="m29.244003,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 66.35674285888692,12.0357456207278) " d="m55.659099,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 92.64598083496068,12.035745620728708) " d="m81.948413,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 118.68364715576165,12.035745620728184) " d="m107.98615,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-off" />
+                            </svg>
+                        </div>
+                        <a href="./html/products-about.html" class="about-product"><span class="icon-search-solid"></span></a>
+                        <a href="#" class="add-to-cart"><span class="icon-shopping-cart-solid"></span></a>
+                    </div>
+                </div>
+                <h13>Штаны ROXY</h13>
+                <h11>250 BYN</h11>
+            </div>
+            <div class="poduct">
+                <div class="image">
+                    <img src="./images/products/prodact-mini/4.jpg" alt="Шапка ROXY">
+                    <div class="poduct-button">
+                        <div class="stars">
+                            <svg width="132" height="24">
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 13.652477264405233,12.035745620727331) " d="m2.954694,9.824111l8.172437,0l2.525346,-7.15708l2.525347,7.15708l8.172436,0l-6.611629,4.423268l2.525477,7.15708l-6.611632,-4.423389l-6.61163,4.423389l2.525477,-7.15708l-6.611631,-4.423268z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 39.941715240477755,12.035745620726356) " d="m29.244003,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 66.35674285888692,12.0357456207278) " d="m55.659099,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 92.64598083496068,12.035745620728708) " d="m81.948413,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 118.68364715576165,12.035745620728184) " d="m107.98615,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-off" />
+                            </svg>
+                        </div>
+                        <a href="./html/products-about.html" class="about-product"><span class="icon-search-solid"></span></a>
+                        <a href="#" class="add-to-cart"><span class="icon-shopping-cart-solid"></span></a>
+                    </div>
+                </div>
+                <h13>Шапка ROXY</h13>
+                <h11>50 BYN</h11>
+            </div>
+            <div class="poduct">
+                <div class="image">
+                    <img src="./images/products/prodact-mini/5.jpg" alt="Шлем C.ION">
+                    <div class="poduct-button">
+                        <div class="stars">
+                            <svg width="132" height="24">
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 13.652477264405233,12.035745620727331) " d="m2.954694,9.824111l8.172437,0l2.525346,-7.15708l2.525347,7.15708l8.172436,0l-6.611629,4.423268l2.525477,7.15708l-6.611632,-4.423389l-6.61163,4.423389l2.525477,-7.15708l-6.611631,-4.423268z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 39.941715240477755,12.035745620726356) " d="m29.244003,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 66.35674285888692,12.0357456207278) " d="m55.659099,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 92.64598083496068,12.035745620728708) " d="m81.948413,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 118.68364715576165,12.035745620728184) " d="m107.98615,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-off" />
+                            </svg>
+                        </div>
+                        <a href="./html/products-about.html" class="about-product"><span class="icon-search-solid"></span></a>
+                        <a href="#" class="add-to-cart"><span class="icon-shopping-cart-solid"></span></a>
+                    </div>
+                </div>
+                <h13>Шлем ICON 2 C. AIR</h13>
+                <h11>360 BYN</h11>
+            </div>
+            <div class="poduct">
+                <div class="image">
+                    <img src="./images/products/prodact-mini/6.jpg" alt="Маска">
+                    <div class="poduct-button">
+                        <div class="stars">
+                            <svg width="132" height="24">
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 13.652477264405233,12.035745620727331) " d="m2.954694,9.824111l8.172437,0l2.525346,-7.15708l2.525347,7.15708l8.172436,0l-6.611629,4.423268l2.525477,7.15708l-6.611632,-4.423389l-6.61163,4.423389l2.525477,-7.15708l-6.611631,-4.423268z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 39.941715240477755,12.035745620726356) " d="m29.244003,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 66.35674285888692,12.0357456207278) " d="m55.659099,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 92.64598083496068,12.035745620728708) " d="m81.948413,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 118.68364715576165,12.035745620728184) " d="m107.98615,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                            </svg>
+                        </div>
+                        <a href="./html/products-about.html" class="about-product"><span class="icon-search-solid"></span></a>
+                        <a href="#" class="add-to-cart"><span class="icon-shopping-cart-solid"></span></a>
+                    </div>
+                </div>
+                <h13>Маска iVY PHOTO SIGMA</h13>
+                <h11>480 BYN</h11>
+            </div>
+            <div class="poduct">
+                <div class="image">
+                    <img src="./images/products/prodact-mini/7.jpg" alt="Ботинки">
+                    <div class="poduct-button">
+                        <div class="stars">
+                            <svg width="132" height="24">
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 13.652477264405233,12.035745620727331) " d="m2.954694,9.824111l8.172437,0l2.525346,-7.15708l2.525347,7.15708l8.172436,0l-6.611629,4.423268l2.525477,7.15708l-6.611632,-4.423389l-6.61163,4.423389l2.525477,-7.15708l-6.611631,-4.423268z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 39.941715240477755,12.035745620726356) " d="m29.244003,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 66.35674285888692,12.0357456207278) " d="m55.659099,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-off" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 92.64598083496068,12.035745620728708) " d="m81.948413,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-off" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 118.68364715576165,12.035745620728184) " d="m107.98615,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-off" />
+                            </svg>
+                        </div>
+                        <a href="./html/products-about.html" class="about-product"><span class="icon-search-solid"></span></a>
+                        <a href="#" class="add-to-cart"><span class="icon-shopping-cart-solid"></span></a>
+                    </div>
+                </div>
+                <h13>Ботинки FACTION BOA</h13>
+                <h11>550 BYN</h11>
+            </div>
+            <div class="poduct">
+                <div class="image">
+                    <img src="./images/products/prodact-mini/8.jpg" alt="Сноуборд ROXY BANANA">
+                    <div class="poduct-button">
+                        <div class="stars">
+                            <svg width="132" height="24">
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 13.652477264405233,12.035745620727331) " d="m2.954694,9.824111l8.172437,0l2.525346,-7.15708l2.525347,7.15708l8.172436,0l-6.611629,4.423268l2.525477,7.15708l-6.611632,-4.423389l-6.61163,4.423389l2.525477,-7.15708l-6.611631,-4.423268z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 39.941715240477755,12.035745620726356) " d="m29.244003,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 66.35674285888692,12.0357456207278) " d="m55.659099,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 92.64598083496068,12.035745620728708) " d="m81.948413,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-off" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 118.68364715576165,12.035745620728184) " d="m107.98615,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-off" />
+                            </svg>
+                        </div>
+                        <a href="./html/products-about.html" class="about-product"><span class="icon-search-solid"></span></a>
+                        <a href="#" class="add-to-cart"><span class="icon-shopping-cart-solid"></span></a>
+                    </div>
+                </div>
+                <h13>Сноуборд ROXY SUGAR BANANA</h13>
+                <h11>700 BYN</h11>
+            </div>
+        </div>
+
+        <div class="special-offers">
+            <div class="special-offers-image"></div>
+            <a href="./html/products-about.html" class="special-1">
+                <div class="offer">
+                    <h2>-20%</h2>
+                    <h3>Куртка ROXY</h3>
+                    <h3>310 BYN</h3>
+                </div>
+                <img src="./images/products/prodact-mini/1.jpg" alt="Куртка ROXY">
+            </a>
+            <a href="./html/products-about.html" class="special-2">
+                <div class="offer">
+                    <h2>-20%</h2>
+                    <h3>Куртка ROXY</h3>
+                    <h3>280 BYN</h3>
+                </div>
+                <img src="./images/products/prodact-mini/2.jpg" alt="Куртка ROXY">
+            </a>
+            <a href="./html/products-about.html" class="special-3">
+                <div class="offer">
+                    <h2>-20%</h2>
+                    <h3>Штаны ROXY</h3>
+                    <h3>150 BYN</h3>
+                </div>
+                <img src="./images/products/prodact-mini/3.jpg" alt="Штаны ROXY">
+            </a>
+            <a href="./html/products-about.html" class="special-4">
+                <div class="offer">
+                    <h2>-20%</h2>
+                    <h3>Шапка ROXY</h3>
+                    <h3>50 BYN</h3>
+                </div>
+                <img src="./images/products/prodact-mini/4.jpg" alt="Шапка ROXY">
+            </a>
+        </div>
+
+        <div class="advantages center">
+            <div>
+                <span class="icon-wallet-solid"></span>
+                <h13>Наличный и безналичный расчет</h13>
+            </div>
+            <div>
+                <span class="icon-shield-alt-solid"></span>
+                <h13>Являемся официальными представителями брендов</h13>
+            </div>
+            <div>
+                <span class="icon-gift-solid"></span>
+                <h13>Дарим подарки и радуем скидками</h13>
+            </div>
+            <div>
+                <span class="icon-truck-solid"></span>
+                <h13>Доставка по всей Беларуси</h13>
+            </div>
+        </div>
+
+        <div class="mobile-app">
+            <div class="center">
+                <img src="./images/jumpsnow.png" alt="&#10052;">
+                <div>
+                    <h1>мобильное приложение winter sport</h1>
+                    <a target="_blank" href="https://play.google.com/store" class="button-black-in-grey"><span class="icon-play"></span>play market</a>
+                    <a target="_blank" href="https://www.apple.com/ru/" class="button-black-in-grey"><span class="icon-apple-brands"></span>app store</a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="last-news center">
+            <h2>Последние новости</h2>
+            <div>
+                <a href="./html/post.html">
+                    <div>
+                        <img alt="тут должна быть иллюстрация к посту, но что-то пошло не так.." src="./images/posts/604_15237000026570.jpg">
+                        <span class="icon-search-solid"></span>
+                    </div>
+                    <h12>ГДЕ СЕГОДНЯ ПОКАТАТЬСЯ?</h12>
+                    <time datetime="2019-12-14" class="paragraph">14 ноября</time>
+                    <p>Итак, на улице, откровенно говоря, зима, это не может не радовать и всем очень интересно, что и где происходит, поэтому соберем всю информацию в одну статью и поделимся с вами.</p>
+                    <span>...</span>
+                </a>
+
+                <a href="./html/post.html">
+                    <div>
+                        <img alt="тут должна быть иллюстрация к посту, но что-то пошло не так.." src="./images/posts/935_15230182071190.jpg">
+                        <span class="icon-search-solid"></span>
+                    </div>
+                    <h12>КАК СТИРАТЬ СНОУБОРД ОДЕЖДУ?</h12>
+                    <time datetime="2019-01-03" class="paragraph">03 января</time>
+                    <p>Одежда для сноуборда: как стирать, сушить и ухаживать?</p>
+                    <span>...</span>
+                </a>
+
+                <a href="./html/post.html">
+                    <div>
+                        <img alt="тут должна быть иллюстрация к посту, но что-то пошло не так.." src="./images/posts/966_15230194428333.jpg">
+                        <span class="icon-search-solid"></span>
+                    </div>
+                    <h12>ФОРМЫ СНОУБОРДОВ</h12>
+                    <time datetime="2019-10-17" class="paragraph">17 октября</time>
+                    <p>Выбираем подходящую форму сноуборда</p>
+                    <span>...</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="brends">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+    </main>
+
+
+    <footer>
+        <div class="footer-top">
+            <form method="get" class="center send-search">
+                <span class="icon-envelope-regular"></span>
+                <input type="email" name="email-
+mailing" placeholder="Подписаться на рассылку" autocomplete="email" class="heading13">
+                <button type="submit"><span class="icon-arrow-right-solid"></span></button>
+            </form>
+        </div>
+
+        <div class="footer-bottom center">
+            <a href="./index.html" class="logo-white heading12 logo">WINTER<img src="./images/logo-icon.png" alt="&#10052;">SPORT</a>
+            <h13>Наши магазины</h13>
+            <div class="contact">
+                <p class="big-paragraph">
+                    г. Минск, пр-т Дзержинского, 11 (ст.м.Грушевка) с 11-00 до 20-00, без обеда и выходных<br />
+                    +375 (17) 302 56 34 (городской)<br />
+                    +375 (29) 110 89 36 (Velcom)<br />
+                    +375 (33) 377 25 68 (МТС)</p>
+                <p class="big-paragraph">
+                    г. Минск, пр-т П. Мстиславца, 11 (ТЦ Дана-Молл, 2 этаж) с 10-00 до 22-00, без обеда и выходных<br />
+                    +375 (17) 316 52 02 (городской)<br />
+                    +375 (44) 722 26 60 (Velcom)<br />
+                    +375 (29) 733 36 20 (МТС)</p>
+            </div>
+            <p>&copy; 2013&mdash;2019 WINTER SPOTR. All rights reserved.</p>
+
+            <div class="social">
+                <a href="https://www.facebook.com/" class="facebook" target="_blank"><span class="icon-facebook-f-brands"></span></a>
+                <a href="https://twitter.com/" class="twitter" target="_blank"><span class="icon-twitter-brands"></span></a>
+                <a href="https://www.google.ru" class="google" target="_blank"><span class="icon-google-plus-g-brands"></span></a>
+                <a href="https://www.pinterest.com/" class="pinterest" target="_blank"><span class="icon-pinterest-brands"></span></a>
+                <a href="https://www.linkedin.com/" class="linkedin" target="_blank"><span class="icon-linkedin-in-brands"></span></a>
+                <a href="https://www.instagram.com/" class="instagram" target="_blank"><span class="icon-instagram-brands"></span></a>
+            </div>
+        </div>
+        <span class="icon-chevron-up-solid" id="arrowTop" hidden></span>
+    </footer>
+    <script src="./js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./slick/slick.min.js"></script>
+    <script src="./js/index.js"></script>
+    <!--всплывающее меню-->
+    <script src="./js/slick.js"></script>
+    <!--вызов карусели-->
+
+
+
+</body></html>
