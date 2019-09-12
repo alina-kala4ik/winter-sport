@@ -95,6 +95,7 @@ form.search input[type="search"] {
     border-style: solid none solid solid;
     width: calc(100% - 48px);
     height: 52px;
+    font-size: 16px;
 }
 
 form.search button {
