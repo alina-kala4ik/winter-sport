@@ -573,6 +573,7 @@ svg path.fill-off {
 
 input {
     -webkit-appearance: none;
+    border-radius: 0;
 }
 
 /*----------------------------------Всплывающие элементы---------------------------------- */
@@ -700,7 +701,7 @@ input {
 .popup-search form {
     max-width: 740px;
     width: 100%;
-    margin-top: 470px;
+    margin-top: 370px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1378,7 +1379,7 @@ form.send-search a {
     -ms-flex: 0 0 50px;
     flex: 0 0 50px;
     text-align: center;
-    margin: 0;
+    margin: 0 0 0 -3px;
 }
 
 form.send-search a:hover {

@@ -4,8 +4,8 @@ main {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
 }
 
 main .content {
@@ -18,14 +18,14 @@ form.sorting-posts {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
 }
 
 article img,
@@ -46,16 +46,16 @@ article div {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
 }
 
 article time {
     display: inline-block;
     background: #142833;
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 70px;
-            flex: 0 0 70px;
+    -ms-flex: 0 0 70px;
+    flex: 0 0 70px;
     height: 70px;
     margin-right: 30px;
     text-align: center;
@@ -77,8 +77,8 @@ article p {
 
 aside {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 270px;
-            flex: 0 0 270px;
+    -ms-flex: 0 0 270px;
+    flex: 0 0 270px;
     padding-left: 15px;
 }
 
@@ -87,12 +87,14 @@ form.search {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    height: 52px;
 }
 
 form.search input[type="search"] {
     border-style: solid none solid solid;
     width: calc(100% - 48px);
+    height: 46px;
 }
 
 form.search button {
@@ -103,10 +105,8 @@ form.search button {
     color: #cccccc;
     font-size: 18px;
     padding: 0 15px;
-}
-
-form.search button:hover {
-    cursor: pointer;
+    margin-left: -3px;
+    height: 46px;
 }
 
 form.search input[type="search"]:focus + button {
@@ -182,11 +182,11 @@ aside ul.archive li a:hover {
     body main {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
         -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
     }
 
     body main .content,
@@ -197,24 +197,24 @@ aside ul.archive li a:hover {
     body form.sorting-posts {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
         -webkit-box-align: start;
-            -ms-flex-align: start;
-                align-items: flex-start;
+        -ms-flex-align: start;
+        align-items: flex-start;
         width: 100%;
     }
 
     .content {
         -webkit-box-ordinal-group: 3;
-            -ms-flex-order: 2;
-                order: 2;
+        -ms-flex-order: 2;
+        order: 2;
     }
 
     aside {
         -webkit-box-ordinal-group: 2;
-            -ms-flex-order: 1;
-                order: 1;
+        -ms-flex-order: 1;
+        order: 1;
         width: 100%;
         margin-bottom: 40px;
     }
@@ -225,8 +225,8 @@ aside ul.archive li a:hover {
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
     }
 
     aside div {
@@ -235,15 +235,15 @@ aside ul.archive li a:hover {
         display: flex;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-                flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
     }
 
     aside ul.categories,
     aside ul.archive {
         -webkit-box-flex: 1;
-            -ms-flex: 1 1 50%;
-                flex: 1 1 50%;
+        -ms-flex: 1 1 50%;
+        flex: 1 1 50%;
     }
 
     aside ul.categories {
@@ -253,7 +253,8 @@ aside ul.archive li a:hover {
     article div > h2 {
         font-size: 20px;
     }
+
     body article iframe {
-    min-height: 315px;
+        min-height: 315px;
     }
 }
