@@ -1,7 +1,7 @@
 header.header-index {
     -webkit-box-flex: 0;
-        -ms-flex: 0 1 1050px;
-            flex: 0 1 1050px;
+        -ms-flex: 0 0 1050px;
+            flex: 0 0 1050px;
     background: url('../images/fgrybt.jpg') 75% 50%;
     height: auto;
 }
@@ -46,8 +46,8 @@ header.header-index h1 span:last-child {
 @media only screen and (max-width: 1400px) {
     body header.header-index {
         -webkit-box-flex: 0;
-            -ms-flex: 0 1 700px;
-                flex: 0 1 700px;
+            -ms-flex: 0 0 700px;
+                flex: 0 0 700px;
         background: url('../images/fgrybt1300.jpg') 75% 50%;
     }
 
@@ -71,8 +71,8 @@ header.header-index h1 span:last-child {
 @media only screen and (max-width: 810px) {
     html body header.header-index {
         -webkit-box-flex: 0;
-            -ms-flex: 0 1 600px;
-                flex: 0 1 600px;
+            -ms-flex: 0 0 600px;
+                flex: 0 0 600px;
     }
 
     header.header-index h1 span {
@@ -347,7 +347,7 @@ main .special-offers .offer h2 {
     background: #e95538;
     color: white;
     height: 75px;
-    width: 165px;
+    width: 125px;
     line-height: 75px;
     text-align: center;
     margin-bottom: 55px;
