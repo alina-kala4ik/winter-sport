@@ -82,3 +82,10 @@ arrowTop.onclick = function () {
 window.addEventListener('scroll', function () {
     arrowTop.hidden = (pageYOffset < document.documentElement.clientHeight);
 });
+
+//настройка viewport
+
+var viewPortScale = 1 / window.devicePixelRatio;
+
+$('#viewport').attr('content', 'user-scalable=no, initial-scale=' + viewPortScale + ', width=device-width'); <
+/script>
