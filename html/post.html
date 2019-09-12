@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Блог</title>
+    <link rel="stylesheet" href="../css/main.css" type="text/css">
+    <link rel="stylesheet" href="../css/post.css" type="text/css">
+    <meta name="viewport" content="width=device-width, height=device-height, target-densitydpi=device-dpi, initial-scale=1">
+    <link rel="icon" href="../images/logo-icon-black.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <nav class="popup-menu">
+        <ul>
+            <li>
+                <a href="../index.html">Главная</a>
+                <span class="icon-chevron-right-solid"></span>
+            </li>
+            <li>
+                <a href="../html/products-cards.html">Каталог</a>
+                <span class="icon-chevron-right-solid"></span>
+            </li>
+            <li>
+                <a href="../html/blog.html">Блог</a>
+                <span class="icon-chevron-right-solid"></span>
+            </li>
+            <li>
+                <a href="../html/contact.html">Контакты</a>
+                <span class="icon-chevron-right-solid"></span>
+            </li>
+            <a href="#"><span class="icon-times-solid"></span></a>
+        </ul>
+    </nav>
+
+
+    <div class="popup-search">
+        <form method="get">
+            <input type=text name="rearch" placeholder="поиск" class="heading3">
+            <a href="../html/search-results.html"><span class="icon-search-solid"></span></a>
+        </form>
+        <a href=""><span class="icon-times-solid"></span></a>
+    </div>
+
+    <div class="popup-user">
+        <div>
+            <input type="radio" name="popup-user-button" checked class="popup-user-input" id="popup-user-input1">
+            <label for="popup-user-input1" class="popup-user-button">Вход</label>
+            <form class="log-in" method="get">
+                <input type="email" name="email-log-in" autocomplete="email" placeholder="введите ваш e-mail" required>
+                <input type="password" name="passwor-log-in" placeholder="пароль" required>
+                <a href="">Забыли ваш пароли или логин?</a>
+                <input type="submit" value="вход">
+            </form>
+
+            <input type="radio" name="popup-user-button" id="popup-user-input2" class="popup-user-input">
+            <label for="popup-user-input2" class="popup-user-button">Регистрация</label>
+            <form class="sing-up" method="get">
+                <input type="email" name="email-sing-up" autocomplete="email" placeholder="введите ваш e-mail" required>
+                <input type="password" name="passwor-sing-up" placeholder="пароль" required>
+                <input type="password" name="password-sing-up" placeholder="Повторите пароль" required>
+                <input type="submit" value="создать аккаунт">
+                <span>или</span>
+                <div class="social">
+                    <a href="https://www.facebook.com/" class="facebook" target="_blank"><span class="icon-facebook-f-brands"></span></a>
+                    <a href="https://twitter.com/" class="twitter" target="_blank"><span class="icon-twitter-brands"></span></a>
+                    <a href="https://www.google.ru" class="google" target="_blank"><span class="icon-google-plus-g-brands"></span></a>
+                    <a href="https://www.linkedin.com/" class="linkedin" target="_blank"><span class="icon-linkedin-in-brands"></span></a>
+                    <a href="https://www.instagram.com/" class="instagram" target="_blank"><span class="icon-instagram-brands"></span></a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <header>
+        <div class="header-top center">
+            <div>
+                <a href="" class="menu"><span class="icon-bars-solid"></span></a>
+                <a href="#" class="search"><span class="icon-search-solid"></span></a>
+            </div>
+
+            <a href="../index.html" class="logo-black heading12 logo">WINTER<img src="../images/logo-icon-black.png" alt="&#10052;">SPORT</a>
+
+            <div>
+                <a href="#" class="user"><span class="icon-user-solid"></span></a>
+                <a href="../html/404.html" class="basket"><span class="icon-shopping-cart-solid"></span></a>
+            </div>
+        </div>
+        <h1>блог</h1>
+        <div class="header-bottom">
+            <div class="center">
+                <ul>
+                    <li><a href="../index.html">Главная</a></li>
+                    <li><span class="icon-chevron-right-solid"></span></li>
+                    <li><a href="../html/blog.html">Блог</a></li>
+                    <li><span class="icon-chevron-right-solid"></span></li>
+                    <li><a href="../html/post.html">ГДЕ СЕГОДНЯ ПОКАТАТЬСЯ?</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <main class="center">
+        <form method="get" class="search">
+            <input type="search" name="search-post" placeholder="поиск по блогу">
+            <button type="submit"><span class="icon-search-solid"></span></button>
+        </form>
+        <article>
+            <img alt="тут должна быть иллюстрация к посту, но что-то пошло не так.." src="../images/posts/604_15237000026570.jpg" class="post">
+            <div>
+                <time class="post">
+                    <h2>14</h2>
+                    <h13>ноя</h13>
+                </time>
+                <h2>ГДЕ СЕГОДНЯ ПОКАТАТЬСЯ?</h2>
+            </div>
+            <p class="post">Итак, на улице, откровенно говоря, зима, это не может не радовать и всем очень интересно, что и где происходит, поэтому соберем всю информацию в одну статью и поделимся с вами.</p>
+
+            <p class="post">Сразу начнем с города - наша небольшая, но уютная "Солнечная долина", к сожалению, сообщила, что ввиду сложных погодных условий в это воскресенье они работать вовсе не будут. Снег там конечно есть как и везде, но склоны должным образом не подготовлены.</p>
+
+            <p class="post">Горнолыжный комплекс "Логойск" сегодня открыт с 10:00 до 17:00, работает прокат оборудование, обратите внимание, что подъемник не работает.</p>
+
+            <p class="post">РГЦ "Силичи" обещали с 12:00 полноценно открыть учебную трассу с подъемником и прокатом. Работать склон будет до 20:00. Цена на учебный подъемник: час для взрослых/детей - 130 000 / 65 000, а два часа взрослым / детям обойдутся в 160 000 / 80 000.</p>
+
+            <p class="post">Комплекс "Якутские горы" пока не открыт, склоны снежить пока не планируют из-за прогноза на скорое потепление.</p>
+
+            <p class="post">Поделитесь ссылкой с друзьями, соберите веселую компанию и откройте свой зимний сезон уже сегодня - чем не отличный план?</p>
+            <div class="tags">
+                <span class="icon-tags-solid"></span>
+                <ul>
+                    <li><a href="#">&#35;Зима</a></li>
+                    <li><a href="#">&#35;Сноуборд</a></li>
+                    <li><a href="#">&#35;Спорт</a></li>
+                    <li><a href="#">&#35;Скилы</a></li>
+                    <li><a href="#">&#35;Экстрим</a></li>
+                    <li><a href="#">&#35;Галерея</a></li>
+                </ul>
+            </div>
+            <div class="social">
+                <span class="icon-share-square-solid"></span>
+                <a href="https://www.facebook.com/" class="facebook" target="_blank"><span class="icon-facebook-f-brands"></span></a>
+                <a href="https://twitter.com/" class="twitter" target="_blank"><span class="icon-twitter-brands"></span></a>
+                <a href="https://www.google.ru" class="google" target="_blank"><span class="icon-google-plus-g-brands"></span></a>
+                <a href="https://www.pinterest.com/" class="pinterest" target="_blank"><span class="icon-pinterest-brands"></span></a>
+                <a href="https://www.linkedin.com/" class="linkedin" target="_blank"><span class="icon-linkedin-in-brands"></span></a>
+                <a href="https://www.instagram.com/" class="instagram" target="_blank"><span class="icon-instagram-brands"></span></a>
+            </div>
+            <div class="navigation-blog">
+                <a class="button-black-in-white" href="#">предыдущий пост</a>
+                <a class="button-black-in-white" href="#">следующий пост</a>
+            </div>
+            <div class="comments">
+                <h12>Комментарии <span>(13)</span></h12>
+                <div class="comment">
+                    <img src="../images/bot.png" alt="фото комментатора">
+                    <div>
+                        <div>
+                            <h13>Алина Калачева</h13>
+                            <div>
+                                <time datetime="2019-01-01">8 месяцев назад</time>
+                                <button><span class="icon-share-solid"></span>ответить</button>
+                            </div>
+                        </div>
+                        <p>Хочу кататься!!!</p>
+                    </div>
+                </div>
+                <div class="comment answer1">
+                    <img src="../images/bot.png" alt="фото комментатора">
+                    <div>
+                        <div>
+                            <h13>Алина Калачева</h13>
+                            <div>
+                                <time datetime="2019-01-01">8 месяцев назад</time>
+                                <button><span class="icon-share-solid"></span>ответить</button>
+                            </div>
+                        </div>
+                        <p>Хочу кататься!!!</p>
+                    </div>
+                </div>
+                <div class="comment answer2">
+                    <img src="../images/bot.png" alt="фото комментатора">
+                    <div>
+                        <div>
+                            <h13>Алина Калачева</h13>
+                            <div>
+                                <time datetime="2019-01-01">8 месяцев назад</time>
+                                <button><span class="icon-share-solid"></span>ответить</button>
+                            </div>
+                        </div>
+                        <p>Хочу кататься!!!</p>
+                    </div>
+                </div>
+                <div class="comment">
+                    <img src="../images/bot.png" alt="фото комментатора">
+                    <div>
+                        <div>
+                            <h13>Алина Калачева</h13>
+                            <div>
+                                <time datetime="2019-01-01">8 месяцев назад</time>
+                                <button><span class="icon-share-solid"></span>ответить</button>
+                            </div>
+                        </div>
+                        <p>Хочу кататься!!!</p>
+                    </div>
+                </div>
+                <div class="comment">
+                    <img src="../images/bot.png" alt="фото комментатора">
+                    <div>
+                        <div>
+                            <h13>Алина Калачева</h13>
+                            <div>
+                                <time datetime="2019-01-01">8 месяцев назад</time>
+                                <button><span class="icon-share-solid"></span>ответить</button>
+                            </div>
+                        </div>
+                        <p>Хочу кататься!!!</p>
+                    </div>
+                </div>
+                <div class="comment">
+                    <img src="../images/bot.png" alt="фото комментатора">
+                    <div>
+                        <div>
+                            <h13>Алина Калачева</h13>
+                            <div>
+                                <time datetime="2019-01-01">8 месяцев назад</time>
+                                <button><span class="icon-share-solid"></span>ответить</button>
+                            </div>
+                        </div>
+                        <p>Хочу кататься!!!</p>
+                    </div>
+                </div>
+                <form method="get">
+                    <h12>Оставить комментарий</h12>
+                    <div>
+                        <input type="text" placeholder="ваше имя" name="name-comment">
+                        <input type="email" placeholder="e-mail" name="email-comment">
+                    </div>
+                    <textarea placeholder="комментарий" name="text-comment"></textarea>
+                    <input type="submit" value="оставить комментарий" class="button-black-in-blue">
+                </form>
+            </div>
+        </article>
+
+    </main>
+
+
+    <footer>
+        <div class="footer-top">
+            <form method="get" class="center send-search">
+                <span class="icon-envelope-regular"></span>
+                <input type="email" name="email-
+mailing" placeholder="Подписаться на рассылку" autocomplete="email" class="heading13">
+                <button type="submit"><span class="icon-arrow-right-solid"></span></button>
+            </form>
+        </div>
+
+        <div class="footer-bottom center">
+            <a href="../index.html" class="logo-white heading12 logo">WINTER<img src="../images/logo-icon.png" alt="&#10052;">SPORT</a>
+            <h13>Наши магазины</h13>
+            <div class="contact">
+                <p class="big-paragraph">
+                    г. Минск, пр-т Дзержинского, 11 (ст.м.Грушевка) с 11-00 до 20-00, без обеда и выходных<br />
+                    +375 (17) 302 56 34 (городской)<br />
+                    +375 (29) 110 89 36 (Velcom)<br />
+                    +375 (33) 377 25 68 (МТС)</p>
+                <p class="big-paragraph">
+                    г. Минск, пр-т П. Мстиславца, 11 (ТЦ Дана-Молл, 2 этаж) с 10-00 до 22-00, без обеда и выходных<br />
+                    +375 (17) 316 52 02 (городской)<br />
+                    +375 (44) 722 26 60 (Velcom)<br />
+                    +375 (29) 733 36 20 (МТС)</p>
+            </div>
+            <p>&copy; 2013&mdash;2019 WINTER SPOTR. All rights reserved.</p>
+
+            <div class="social">
+                <a href="https://www.facebook.com/" class="facebook" target="_blank"><span class="icon-facebook-f-brands"></span></a>
+                <a href="https://twitter.com/" class="twitter" target="_blank"><span class="icon-twitter-brands"></span></a>
+                <a href="https://www.google.ru" class="google" target="_blank"><span class="icon-google-plus-g-brands"></span></a>
+                <a href="https://www.pinterest.com/" class="pinterest" target="_blank"><span class="icon-pinterest-brands"></span></a>
+                <a href="https://www.linkedin.com/" class="linkedin" target="_blank"><span class="icon-linkedin-in-brands"></span></a>
+                <a href="https://www.instagram.com/" class="instagram" target="_blank"><span class="icon-instagram-brands"></span></a>
+            </div>
+        </div>
+        <span class="icon-chevron-up-solid" id="arrowTop" hidden></span>
+    </footer>
+
+    <script src="../js/script.js"></script>
+
+
+</body></html>

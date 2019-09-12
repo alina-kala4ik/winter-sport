@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Каталог</title>
+    <link rel="stylesheet" href="../css/main.css" type="text/css">
+    <link rel="stylesheet" href="../css/products-card.css" type="text/css">
+    <meta name="viewport" content="width=device-width, height=device-height, target-densitydpi=device-dpi, initial-scale=1">
+    <link rel="icon" href="../images/logo-icon-black.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../css/selectric.css" type="text/css">
+    <link rel="stylesheet" href="../css/selectric.css" type="text/css">
+</head>
+
+<body>
+
+    <nav class="popup-menu">
+        <ul>
+            <li>
+                <a href="../index.html">Главная</a>
+                <span class="icon-chevron-right-solid"></span>
+            </li>
+            <li>
+                <a href="../html/products-cards.html">Каталог</a>
+                <span class="icon-chevron-right-solid"></span>
+            </li>
+            <li>
+                <a href="../html/blog.html">Блог</a>
+                <span class="icon-chevron-right-solid"></span>
+            </li>
+            <li>
+                <a href="../html/contact.html">Контакты</a>
+                <span class="icon-chevron-right-solid"></span>
+            </li>
+            <a href="#"><span class="icon-times-solid"></span></a>
+        </ul>
+    </nav>
+
+
+    <div class="popup-search">
+        <form method="get">
+            <input type=text name="rearch" placeholder="поиск" class="heading3">
+            <a href="../html/search-results.html"><span class="icon-search-solid"></span></a>
+        </form>
+        <a href=""><span class="icon-times-solid"></span></a>
+    </div>
+
+    <div class="popup-user">
+        <div>
+
+            <input type="radio" name="popup-user-button" checked class="popup-user-input" id="popup-user-input1">
+            <label for="popup-user-input1" class="popup-user-button">Вход</label>
+            <form class="log-in" method="get">
+                <input type="email" name="email-log-in" autocomplete="email" placeholder="введите ваш e-mail" required>
+                <input type="password" name="passwor-log-in" placeholder="пароль" required>
+                <a href="">Забыли ваш пароли или логин?</a>
+                <input type="submit" value="вход">
+            </form>
+
+            <input type="radio" name="popup-user-button" id="popup-user-input2" class="popup-user-input">
+            <label for="popup-user-input2" class="popup-user-button">Регистрация</label>
+            <form class="sing-up" method="get">
+                <input type="email" name="email-sing-up" autocomplete="email" placeholder="введите ваш e-mail" required>
+                <input type="password" name="passwor-sing-up" placeholder="пароль" required>
+                <input type="password" name="password-sing-up" placeholder="Повторите пароль" required>
+                <input type="submit" value="создать аккаунт">
+                <span>или</span>
+                <div class="social">
+                    <a href="https://www.facebook.com/" class="facebook" target="_blank"><span class="icon-facebook-f-brands"></span></a>
+                    <a href="https://twitter.com/" class="twitter" target="_blank"><span class="icon-twitter-brands"></span></a>
+                    <a href="https://www.google.ru" class="google" target="_blank"><span class="icon-google-plus-g-brands"></span></a>
+                    <a href="https://www.linkedin.com/" class="linkedin" target="_blank"><span class="icon-linkedin-in-brands"></span></a>
+                    <a href="https://www.instagram.com/" class="instagram" target="_blank"><span class="icon-instagram-brands"></span></a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <header>
+        <div class="header-top center">
+            <div>
+                <a href="" class="menu"><span class="icon-bars-solid"></span></a>
+                <a href="#" class="search"><span class="icon-search-solid"></span></a>
+            </div>
+
+            <a href="../index.html" class="logo-black heading12 logo">WINTER<img src="../images/logo-icon-black.png" alt="&#10052;">SPORT</a>
+
+            <div>
+                <a href="#" class="user"><span class="icon-user-solid"></span></a>
+                <a href="../html/404.html" class="basket"><span class="icon-shopping-cart-solid"></span></a>
+            </div>
+        </div>
+        <h1>каталог</h1>
+        <div class="header-bottom">
+            <div class="center">
+                <ul>
+                    <li><a href="../index.html">Главная</a></li>
+                    <li><span class="icon-chevron-right-solid"></span></li>
+                    <li><a href="../html/search-results.html">каталог</a></li>
+                </ul>
+                <div class="bottom-button-search">
+                    <span class="icon-search-solid"></span>
+                    <span class="icon-times-solid"></span>
+                </div>
+            </div>
+            <div class="bottom-popup-search">
+                <form method="get" class="center send-search">
+                    <input type="email" name="email-
+mailing" placeholder="поиск" autocomplete="email" class="heading13">
+                    <a href="search-results.html"><span class="icon-search-solid"></span></a>
+                </form>
+            </div>
+        </div>
+
+
+
+    </header>
+
+    <main class="center">
+        <form class="settings-catalog">
+            <ul class="categories">
+                <li><input type="checkbox" id="snowboard"><label for="snowboard">сноуборды</label></li>
+                <li><input type="checkbox" id="mask"><label for="mask">маски</label></li>
+                <li><input type="checkbox" id="boots"><label for="boots">ботинки</label></li>
+                <li><input type="checkbox" id="clothes"><label for="clothes">одежда</label>
+                    <ul>
+                        <li><a>куртки</a></li>
+                        <li><a>штаны</a></li>
+                        <li><a>термобелье</a></li>
+                        <li><a>толстовки и флис</a></li>
+                    </ul>
+                </li>
+                <li><input type="checkbox" id="accessories"><label for="accessories">аксессуары</label>
+                    <ul>
+                        <li><a>балаклавы</a></li>
+                        <li><a>шапки</a></li>
+                        <li><a>варежки</a></li>
+                        <li><a>перчатки</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="filters">
+                <li><input type="checkbox" id="gender"><label for="gender">Пол</label>
+                    <ul>
+                        <li><input type="checkbox" id="women"><label for="women">женский</label></li>
+                        <li><input type="checkbox" id="men"><label for="men">мужской</label></li>
+                    </ul>
+                </li>
+                <li><input type="checkbox" id="prise"><label for="prise">Цена</label>
+                    <div class="slider">
+                        <div class="bar">
+                            <div class="lp" data-pos="0"></div>
+                            <div class="rp" data-pos="1"></div>
+                        </div>
+                    </div>
+                    <script src="../js/polzunok.js"></script>
+                </li>
+                <li><input type="checkbox" id="brend"><label for="brend">Бренд</label>
+                    <ul>
+                        <li><input type="checkbox" id="dc"><label for="dc">DC</label></li>
+                        <li><input type="checkbox" id="terror-snow"><label for="terror-snow">TERROR SNOW</label></li>
+                        <li><input type="checkbox" id="roxy"><label for="roxy">Roxy</label></li>
+                    </ul>
+                </li>
+                <li><input type="checkbox" id="country"><label for="country">Страна производителя</label>
+                    <ul>
+                        <li><input type="checkbox" id="switzerland"><label for="switzerland">Швейцария</label></li>
+                        <li><input type="checkbox" id="RF"><label for="RF">РФ</label></li>
+                        <li><input type="checkbox" id="USA"><label for="USA">США</label></li>
+                    </ul>
+                </li>
+                <li><input type="checkbox" id="size"><label for="size">Размер</label>
+                    <ul>
+                        <li><input type="checkbox" id="100"><label for="100">100</label></li>
+                        <li><input type="checkbox" id="120"><label for="120">120</label></li>
+                        <li><input type="checkbox" id="140"><label for="140">140</label></li>
+                        <li><input type="checkbox" id="160"><label for="160">160</label></li>
+                        <li><input type="checkbox" id="180"><label for="180">180</label></li>
+                        <li><input type="checkbox" id="200"><label for="200">200</label></li>
+                    </ul>
+                </li>
+                <li><input type="checkbox" id="color"><label for="color">Цвет</label>
+                    <ul class="colors">
+                        <li class="color red"></li>
+                        <li class="color black"></li>
+                        <li class="color white"></li>
+                        <li class="color green"></li>
+                        <li class="color blue"></li>
+                    </ul>
+                </li>
+            </ul>
+            <button class="button-filters">фильтры</button>
+        </form>
+        <div class="catalog">
+            <div>
+                <form>
+                    <select name="sorting-posts">
+                        <option value="sorting-posts-date">популярности</option>
+                        <option value="sorting-posts-popular">обновлению</option>
+                        <option value="sorting-posts-popular">рейтингу</option>
+                        <option value="sorting-posts-popular">цене</option>
+                        <option value="sorting-posts-popular">скидке</option>
+                    </select>
+                </form>
+                <form>
+                    <input type="radio" name="ranking" id="table" checked><label for="table"><span class="icon-th-solid"></span></label>
+                    <input type="radio" name="ranking" id="line"><label for="line"><span class="icon-th-list-solid"></span></label>
+                </form>
+            </div>
+
+            <ul class="table poducts">
+                <li>
+                    <a class="poduct" href="../html/products-about.html">
+                        <ul class="scroll-image-prodact">
+                            <li><img src="../images/products/prodact-mini/1.jpg" alt="Куртка ROXY"></li>
+                            <li><img src="../images/products/prodact-mini/11.jpg" loading="lazy" alt="Куртка ROXY"></li>
+                            <li><img src="../images/products/prodact-mini/111.jpg" loading="lazy" alt="Куртка ROXY"></li>
+                        </ul>
+                        <div>
+                            <h13>Куртка ROXY</h13>
+                            <h11>500 BYN</h11>
+                            <svg width="132" height="24">
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 13.652477264405233,12.035745620727331) " d="m2.954694,9.824111l8.172437,0l2.525346,-7.15708l2.525347,7.15708l8.172436,0l-6.611629,4.423268l2.525477,7.15708l-6.611632,-4.423389l-6.61163,4.423389l2.525477,-7.15708l-6.611631,-4.423268z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 39.941715240477755,12.035745620726356) "  d="m29.244003,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 66.35674285888692,12.0357456207278) "  d="m55.659099,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 92.64598083496068,12.035745620728708) " d="m81.948413,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 118.68364715576165,12.035745620728184) " d="m107.98615,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-off" />
+                            </svg>
+                            <ul class="description paragraph check-list">
+                                <li>Водостойкая и дышащая мембрана ROXY DryFlight&copy; 15K (15 000 мм/10 000 г)</li>
+                                <li>Утеплитель Thinsulate&trade; Type M (тело 100 г, рукава 80 г, капюшон 60 г)</li>
+                                <li>Узкий крой (slim fit)</li>
+                            </ul>
+                            <button title="добавить в корзину" class="add-cart"><span class="icon-shopping-cart-solid"></span></button>
+                            <button class="button-black-in-white about-prodact">Просмотр</button>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="poduct" href="../html/products-about.html">
+                        <ul class="scroll-image-prodact">
+                            <li><img src="../images/products/prodact-mini/2.jpg" alt="Куртка ROXY"></li>
+                            <li><img src="../images/products/prodact-mini/22.jpg" loading="lazy" alt="Куртка ROXY"></li>
+                            <li><img src="../images/products/prodact-mini/222.jpg" loading="lazy" alt="Куртка ROXY"></li>
+                        </ul>
+                        <div>
+                            <h13>Куртка ROXY</h13>
+                            <h11>300 BYN</h11>
+                            <svg width="132" height="24">
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 13.652477264405233,12.035745620727331) " d="m2.954694,9.824111l8.172437,0l2.525346,-7.15708l2.525347,7.15708l8.172436,0l-6.611629,4.423268l2.525477,7.15708l-6.611632,-4.423389l-6.61163,4.423389l2.525477,-7.15708l-6.611631,-4.423268z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 39.941715240477755,12.035745620726356) " d="m29.244003,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 66.35674285888692,12.0357456207278) " d="m55.659099,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 92.64598083496068,12.035745620728708) " d="m81.948413,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 118.68364715576165,12.035745620728184) " d="m107.98615,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-off" />
+                            </svg>
+                            <ul class="description paragraph check-list">
+                                <li>Водостойкая и дышащая мембрана ROXY DryFlight&copy; 15K (15 000 мм/10 000 г)</li>
+                                <li>Утеплитель Thinsulate&trade; Type M (тело 100 г, рукава 80 г, капюшон 60 г)</li>
+                                <li>Узкий крой (slim fit)</li>
+                            </ul>
+                            <button title="добавить в корзину" class="add-cart"><span class="icon-shopping-cart-solid"></span></button>
+                            <button class="button-black-in-white about-prodact">Просмотр</button>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="poduct" href="../html/products-about.html">
+                        <ul class="scroll-image-prodact">
+                            <li><img src="../images/products/prodact-mini/3.jpg" alt="Штаны ROXY"></li>
+                            <li><img src="../images/products/prodact-mini/33.jpg" loading="lazy" alt="Штаны ROXY"></li>
+                            <li><img src="../images/products/prodact-mini/333.jpg" loading="lazy" alt="Штаны ROXY"></li>
+                            <li><img src="../images/products/prodact-mini/3333.jpg" loading="lazy" alt="Штаны ROXY"></li>
+                        </ul>
+                        <div>
+                            <h13>Штаны ROXY</h13>
+                            <h11>250 BYN</h11>
+                            <svg width="132" height="24">
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 13.652477264405233,12.035745620727331) " d="m2.954694,9.824111l8.172437,0l2.525346,-7.15708l2.525347,7.15708l8.172436,0l-6.611629,4.423268l2.525477,7.15708l-6.611632,-4.423389l-6.61163,4.423389l2.525477,-7.15708l-6.611631,-4.423268z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 39.941715240477755,12.035745620726356) " d="m29.244003,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 66.35674285888692,12.0357456207278) " d="m55.659099,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 92.64598083496068,12.035745620728708) " d="m81.948413,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 118.68364715576165,12.035745620728184) " d="m107.98615,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-off" />
+                            </svg>
+                            <ul class="description paragraph check-list">
+                                <li>Водостойкая и дышащая мембрана ROXY DryFlight&copy; 10K (10 000 мм/5000 г)</li>
+                                <li>Мощный и хорошо дышащий утеплитель ROXY WarmFlight&copy; x3 (60 г)</li>
+                                <li>Стандартный крой (regular fit)</li>
+                            </ul>
+                            <button title="добавить в корзину" class="add-cart"><span class="icon-shopping-cart-solid"></span></button>
+                            <button class="button-black-in-white about-prodact">Просмотр</button>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="poduct" href="../html/products-about.html">
+                        <ul class="scroll-image-prodact">
+                            <li><img src="../images/products/prodact-mini/4.jpg" alt="Шапка ROXY"></li>
+                        </ul>
+                        <div>
+                            <h13>Шапка ROXY</h13>
+                            <h11>50 BYN</h11>
+                            <svg width="132" height="24">
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 13.652477264405233,12.035745620727331) " d="m2.954694,9.824111l8.172437,0l2.525346,-7.15708l2.525347,7.15708l8.172436,0l-6.611629,4.423268l2.525477,7.15708l-6.611632,-4.423389l-6.61163,4.423389l2.525477,-7.15708l-6.611631,-4.423268z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 39.941715240477755,12.035745620726356) " d="m29.244003,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 66.35674285888692,12.0357456207278) " d="m55.659099,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 92.64598083496068,12.035745620728708) " d="m81.948413,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 118.68364715576165,12.035745620728184) " d="m107.98615,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-off" />
+                            </svg>
+                            <ul class="description paragraph check-list">
+                                <li>Акриловая вязка</li>
+                                <li>Свободный крой (slouchy fit)</li>
+                                <li>Хлопчатобумажная нашивка ROXY</li>
+                            </ul>
+                            <button title="добавить в корзину" class="add-cart"><span class="icon-shopping-cart-solid"></span></button>
+                            <button class="button-black-in-white about-prodact">Просмотр</button>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="poduct" href="../html/products-about.html">
+                        <ul class="scroll-image-prodact">
+                            <li><img src="../images/products/prodact-mini/5.jpg" alt="Шлем C.ICON"></li>
+                            <li><img src="../images/products/prodact-mini/55.jpg" alt="Шлем C.ICON"></li>
+                            <li><img src="../images/products/prodact-mini/555.jpg" alt="Шлем C.ICON"></li>
+                            <li><img src="../images/products/prodact-mini/5555.jpg" alt="Шлем C.ICON"></li>
+                            <li><img src="../images/products/prodact-mini/55555.jpg" alt="Шлем C.ICON"></li>
+                            <li><img src="../images/products/prodact-mini/555555.jpg" alt="Шлем C.ICON"></li>
+                        </ul>
+                        <div>
+                            <h13>Шлем ICON 2 C. AIR</h13>
+                            <h11>360 BYN</h11>
+                            <svg width="132" height="24">
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 13.652477264405233,12.035745620727331) " d="m2.954694,9.824111l8.172437,0l2.525346,-7.15708l2.525347,7.15708l8.172436,0l-6.611629,4.423268l2.525477,7.15708l-6.611632,-4.423389l-6.61163,4.423389l2.525477,-7.15708l-6.611631,-4.423268z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 39.941715240477755,12.035745620726356) " d="m29.244003,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 66.35674285888692,12.0357456207278) " d="m55.659099,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 92.64598083496068,12.035745620728708) " d="m81.948413,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 118.68364715576165,12.035745620728184) " d="m107.98615,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-off" />
+                            </svg>
+                            <ul class="description paragraph check-list">
+                                <li>Мягкие термоформованные съемные накладки на уши с подкладкой из шерпы</li>
+                                <li>Стреп для подбородка оснащен патентованной застежкой Fidlock&copy;</li>
+                                <li>Вес — 400 г</li>
+                            </ul>
+                            <button title="добавить в корзину" class="add-cart"><span class="icon-shopping-cart-solid"></span></button>
+                            <button class="button-black-in-white about-prodact">Просмотр</button>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="poduct" href="../html/products-about.html">
+                        <ul class="scroll-image-prodact">
+                            <li><img src="../images/products/prodact-mini/6.jpg" alt="Маска"></li>
+                            <li><img src="../images/products/prodact-mini/66.jpg" alt="Маска"></li>
+                            <li><img src="../images/products/prodact-mini/666.jpg" alt="Маска"></li>
+                        </ul>
+                        <div>
+                            <h13>Маска iVY PHOTO SIGMA</h13>
+                            <h11>480 BYN</h11>
+                            <svg width="132" height="24">
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 13.652477264405233,12.035745620727331) " d="m2.954694,9.824111l8.172437,0l2.525346,-7.15708l2.525347,7.15708l8.172436,0l-6.611629,4.423268l2.525477,7.15708l-6.611632,-4.423389l-6.61163,4.423389l2.525477,-7.15708l-6.611631,-4.423268z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 39.941715240477755,12.035745620726356) " d="m29.244003,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 66.35674285888692,12.0357456207278) " d="m55.659099,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 92.64598083496068,12.035745620728708) " d="m81.948413,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 118.68364715576165,12.035745620728184) " d="m107.98615,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                            </svg>
+                            <ul class="description paragraph check-list">
+                                <li>Сферическая литая поликарбонатная линза + линза из ацетата</li>
+                                <li>Антифоговая обработка (не дает маске запотевать изнутри) + устойчивость к образованию царапин
+                                </li>
+                            </ul>
+                            <button title="добавить в корзину" class="add-cart"><span class="icon-shopping-cart-solid"></span></button>
+                            <button class="button-black-in-white about-prodact">Просмотр</button>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="poduct" href="../html/products-about.html">
+                        <ul class="scroll-image-prodact">
+                            <li><img src="../images/products/prodact-mini/7.jpg" alt="Ботинки"></li>
+                        </ul>
+                        <div>
+                            <h13>Ботинки FACTION BOA</h13>
+                            <h11>550 BYN</h11>
+                            <svg width="132" height="24">
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 13.652477264405233,12.035745620727331) " d="m2.954694,9.824111l8.172437,0l2.525346,-7.15708l2.525347,7.15708l8.172436,0l-6.611629,4.423268l2.525477,7.15708l-6.611632,-4.423389l-6.61163,4.423389l2.525477,-7.15708l-6.611631,-4.423268z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 39.941715240477755,12.035745620726356) " d="m29.244003,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 66.35674285888692,12.0357456207278) " d="m55.659099,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-off" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 92.64598083496068,12.035745620728708) " d="m81.948413,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-off" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 118.68364715576165,12.035745620728184) " d="m107.98615,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-off" />
+                            </svg>
+                            <ul class="description paragraph check-list">
+                                <li>Система двойной быстрой затяжки с двумя регулировочными барабанами</li>
+                            </ul>
+                            <button title="добавить в корзину" class="add-cart"><span class="icon-shopping-cart-solid"></span></button>
+                            <button class="button-black-in-white about-prodact">Просмотр</button>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="poduct" href="../html/products-about.html">
+                        <ul class="scroll-image-prodact">
+                            <li><img src="../images/products/prodact-mini/8.jpg" alt="Сноуборд ROXY BANANA"></li>
+                        </ul>
+                        <div>
+                            <h13>Сноуборд ROXY SUGAR BANANA</h13>
+                            <h11>700 BYN</h11>
+                            <svg width="132" height="24">
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 13.652477264405233,12.035745620727331) " d="m2.954694,9.824111l8.172437,0l2.525346,-7.15708l2.525347,7.15708l8.172436,0l-6.611629,4.423268l2.525477,7.15708l-6.611632,-4.423389l-6.61163,4.423389l2.525477,-7.15708l-6.611631,-4.423268z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 39.941715240477755,12.035745620726356) " d="m29.244003,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-on" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 66.35674285888692,12.0357456207278) " d="m55.659099,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-off" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 92.64598083496068,12.035745620728708) " d="m81.948413,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-off" />
+                                <path stroke="#142833" transform="rotate(-0.27058473229408264 118.68364715576165,12.035745620728184) " d="m107.98615,9.82411l8.17244,0l2.52535,-7.15708l2.52534,7.15708l8.17244,0l-6.61163,4.42327l2.52548,7.15708l-6.61163,-4.42339l-6.61163,4.42339l2.52547,-7.15708l-6.61163,-4.42327z" stroke-width="1.5" class="fill-off" />
+                            </svg>
+                            <ul class="description paragraph check-list">
+                                <li>Пол: женский</li>
+                                <li>форма &mdash; TWIN-TIP (симметричные носы)</li>
+                                <li>жесткость &mdash; 2 из 5</li>
+                            </ul>
+                            <button title="добавить в корзину" class="add-cart"><span class="icon-shopping-cart-solid"></span></button>
+                            <button class="button-black-in-white about-prodact">Просмотр</button>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="pagination">
+                <li><a href="#" class="disabled"><span class="icon-chevron-left-solid"></span></a></li>
+                <li><a href="#" class="current">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#"><span class="icon-chevron-right-solid"></span></a></li>
+            </ul>
+        </div>
+
+    </main>
+
+
+    <footer>
+        <div class="footer-top">
+            <form method="get" class="center send-search">
+                <span class="icon-envelope-regular"></span>
+                <input type="email" name="email-
+mailing" placeholder="Подписаться на рассылку" autocomplete="email" class="heading13">
+                <button type="submit"><span class="icon-arrow-right-solid"></span></button>
+            </form>
+        </div>
+
+        <div class="footer-bottom center">
+            <a href="../index.html" class="logo-white heading12 logo">WINTER<img src="../images/logo-icon.png" alt="&#10052;">SPORT</a>
+            <h13>Наши магазины</h13>
+            <div class="contact">
+                <p class="big-paragraph">
+                    г. Минск, пр-т Дзержинского, 11 (ст.м.Грушевка) с 11-00 до 20-00, без обеда и выходных<br />
+                    +375 (17) 302 56 34 (городской)<br />
+                    +375 (29) 110 89 36 (Velcom)<br />
+                    +375 (33) 377 25 68 (МТС)</p>
+                <p class="big-paragraph">
+                    г. Минск, пр-т П. Мстиславца, 11 (ТЦ Дана-Молл, 2 этаж) с 10-00 до 22-00, без обеда и выходных<br />
+                    +375 (17) 316 52 02 (городской)<br />
+                    +375 (44) 722 26 60 (Velcom)<br />
+                    +375 (29) 733 36 20 (МТС)</p>
+            </div>
+            <p>&copy; 2013&mdash;2019 WINTER SPOTR. All rights reserved.</p>
+
+            <div class="social">
+
+                <a href="https://www.facebook.com/" class="facebook" target="_blank"><span class="icon-facebook-f-brands"></span></a>
+                <a href="https://twitter.com/" class="twitter" target="_blank"><span class="icon-twitter-brands"></span></a>
+                <a href="https://www.google.ru" class="google" target="_blank"><span class="icon-google-plus-g-brands"></span></a>
+                <a href="https://www.pinterest.com/" class="pinterest" target="_blank"><span class="icon-pinterest-brands"></span></a>
+                <a href="https://www.linkedin.com/" class="linkedin" target="_blank"><span class="icon-linkedin-in-brands"></span></a>
+                <a href="https://www.instagram.com/" class="instagram" target="_blank"><span class="icon-instagram-brands"></span></a>
+            </div>
+        </div>
+        <span class="icon-chevron-up-solid" id="arrowTop" hidden></span>
+    </footer>
+    <script src="../js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../js/jquery.selectric.min.js"></script>
+    <script src="../js/selectric.js"></script>
+    <script src="../js/button-search-popup.js"></script>
+    <script src="../js/product-cards.js"></script>
+
+
+</body></html>

@@ -1,0 +1,204 @@
+main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column
+}
+
+form.search {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+}
+
+form.search input[type="search"] {
+    border-style: solid none solid solid;
+    width: calc(100% - 48px);
+}
+
+form.search input[type="search"]:focus + button {
+    border-color: #00c2ec;
+}
+
+form.search button {
+    background: white;
+    border-style: solid solid solid none;
+    border-width: 3px;
+    border-color: #eeeeee;
+    color: #cccccc;
+    font-size: 18px;
+    padding: 0 15px;
+}
+
+form.search button:hover {
+    cursor: pointer;
+}
+
+article img.post,
+article iframe {
+    display: block;
+    max-width: 850px;
+    width: 100%;
+    height: auto;
+    margin: 40px auto;
+}
+
+article iframe {
+    min-height: 315px;
+}
+
+article div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+
+article time.post {
+    display: inline-block;
+    background: #142833;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 70px;
+            flex: 0 0 70px;
+    height: 70px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+article time.post h2,
+article time.post h13 {
+    color: white;
+    padding: 3px 0;
+}
+
+article p.post:first-of-type {
+    border-top: 2px solid #f2f2f2;
+    padding-top: 25px;
+    margin-top: 30px;
+}
+
+article p.post:not(:last-of-type) {
+    padding-bottom: 30px;
+}
+
+article p.post:last-of-type {
+    margin-bottom: 80px;
+}
+
+article .tags,
+article .social {
+    background: #fafafa;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 20px;
+}
+
+article .tags ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+article .tags > span,
+article .social > span {
+    display: inline-block;
+    font-size: 25px;
+    background: #142833;
+    color: white;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 60px;
+            flex: 0 0 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 30px;
+    min-height: 60px;
+}
+
+article .tags li a {
+    color: #a1acb6;
+    font-weight: 400;
+    display: block;
+    padding: 10px 10px;
+    text-transform: lowercase;
+}
+
+article .tags li a:hover {
+    color: #00c2ec;
+}
+
+body article .social a {
+    background: none;
+    margin: 0 10px
+}
+
+body article .social a span {
+    color: #2d424d;
+}
+
+body article .social a:hover {
+    background: #00c2ec;
+}
+
+body article .social a:hover span {
+    color: white;
+}
+
+article .navigation-blog {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 40px 0 120px 0;
+}
+
+article .navigation-blog a:not(:last-child) {
+    margin-right: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    body article .navigation-blog a.button-black-in-white {
+        padding: 16px 10px;
+    }
+}
