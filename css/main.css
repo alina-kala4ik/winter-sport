@@ -362,11 +362,11 @@ body {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     position: relative;
 }
 
@@ -571,6 +571,10 @@ svg path.fill-off {
     fill: transparent;
 }
 
+input {
+    -webkit-appearance: none;
+}
+
 /*----------------------------------Всплывающие элементы---------------------------------- */
 .popup-menu {
     position: absolute;
@@ -593,7 +597,7 @@ svg path.fill-off {
     position: relative;
     left: 0;
     -webkit-animation: popup-menu 1s;
-            animation: popup-menu 1s;
+    animation: popup-menu 1s;
 }
 
 @-webkit-keyframes popup-menu {
@@ -686,11 +690,11 @@ svg path.fill-off {
     z-index: 999;
     display: none;
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 .popup-search form {
@@ -701,8 +705,8 @@ svg path.fill-off {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end
+    -ms-flex-align: end;
+    align-items: flex-end
 }
 
 .popup-search input {
@@ -746,11 +750,11 @@ svg path.fill-off {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .popup-search form a span {
@@ -788,11 +792,11 @@ svg path.fill-off {
     z-index: 999;
     display: none;
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 .popup-user > div {
@@ -930,7 +934,7 @@ svg path.fill-off {
 
 .popup-user form.sing-up .social {
     -ms-flex-pack: distribute;
-        justify-content: space-around
+    justify-content: space-around
 }
 
 /*----------------------------------Header---------------------------------- */
@@ -942,14 +946,14 @@ header {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     font-weight: 700;
 }
 
@@ -965,11 +969,11 @@ header .header-top {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-            align-items: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
 }
 
 header .header-top div a {
@@ -1003,8 +1007,8 @@ header .header-bottom .center {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 
 header .header-bottom li {
@@ -1067,14 +1071,14 @@ footer {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 
 footer .footer-top {
@@ -1093,11 +1097,11 @@ footer .footer-bottom {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     padding: 15px 0 50px 0;
 }
 
@@ -1111,7 +1115,7 @@ footer .footer-bottom .contact {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
 }
 
 footer .footer-bottom .contact p {
@@ -1143,8 +1147,8 @@ footer .footer-bottom .social a {
     footer .footer-bottom .contact {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
     }
 
     body footer .footer-bottom .contact p {
@@ -1225,11 +1229,11 @@ button:hover {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     margin-top: 80px;
 }
 
@@ -1295,14 +1299,14 @@ form.send-search {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 form.send-search > span {
@@ -1314,8 +1318,8 @@ form.send-search > span {
 form.send-search input {
     height: 14px;
     -webkit-box-flex: 1;
-        -ms-flex: 1 1 100%;
-            flex: 1 1 100%;
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
     padding: 18px;
     border: none;
     text-transform: none;
@@ -1353,8 +1357,8 @@ form.send-search button {
     background: #142833;
     border: none;
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 50px;
-            flex: 0 0 50px;
+    -ms-flex: 0 0 50px;
+    flex: 0 0 50px;
 }
 
 form.send-search button:hover {
@@ -1371,8 +1375,8 @@ form.send-search a {
     background: #142833;
     border: none;
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 50px;
-            flex: 0 0 50px;
+    -ms-flex: 0 0 50px;
+    flex: 0 0 50px;
     text-align: center;
     margin: 0;
 }
@@ -1390,9 +1394,11 @@ form.send-search a span {
     body form.send-search input[type="email"]::-webkit-input-placeholder {
         font-size: 14px;
     }
+
     body form.send-search input[type="email"]:-ms-input-placeholder {
         font-size: 14px;
     }
+
     body form.send-search input[type="email"]::placeholder {
         font-size: 14px;
     }
@@ -1405,8 +1411,8 @@ form.send-search a span {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     padding-top: 80px;
 }
 
@@ -1416,8 +1422,8 @@ form.send-search a span {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
 }
 
 .comments .comment:first-of-type {
@@ -1430,8 +1436,8 @@ form.send-search a span {
     border-radius: 50%;
     border: 10px solid #ebebeb;
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 70px;
-            flex: 0 0 70px;
+    -ms-flex: 0 0 70px;
+    flex: 0 0 70px;
     margin-right: 30px;
 }
 
@@ -1441,11 +1447,11 @@ form.send-search a span {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-flex: 1;
-        -ms-flex: 1 1 100%;
-            flex: 1 1 100%;
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
 }
 
 .comments .comment div > div {
@@ -1454,16 +1460,16 @@ form.send-search a span {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-            align-items: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .comments .comment div div h13 {
@@ -1504,11 +1510,11 @@ form.send-search a span {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     padding: 20px 0;
 }
 
@@ -1531,8 +1537,8 @@ form.send-search a span {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
 .comments form > span {
@@ -1541,14 +1547,14 @@ form.send-search a span {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .review-stars {
@@ -1557,8 +1563,8 @@ form.send-search a span {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
 }
 
 .review-stars input {
@@ -1582,15 +1588,15 @@ form.send-search a span {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     margin: 35px 0 30px 0;
 }
 
 .comments form div input {
     -webkit-box-flex: 1;
-        -ms-flex: 1 1 50%;
-            flex: 1 1 50%;
+    -ms-flex: 1 1 50%;
+    flex: 1 1 50%;
 }
 
 .comments form div input:not(:last-child) {
@@ -1604,7 +1610,7 @@ form.send-search a span {
 .comments form input[type="submit"] {
     margin-top: 30px;
     -ms-flex-item-align: start;
-        align-self: flex-start
+    align-self: flex-start
 }
 
 @media only screen and (max-width: 750px) {
@@ -1628,7 +1634,7 @@ form.send-search a span {
 
     .comments form div {
         -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+        flex-wrap: wrap;
         margin: 35px 0 30px 0;
     }
 
