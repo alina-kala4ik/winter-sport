@@ -87,4 +87,4 @@ window.addEventListener('scroll', function () {
 
 var viewPortScale = 1 / window.devicePixelRatio;
 
-$('#viewport').attr('content', initial - scale = ' + viewPortScale + ', width = device - width ');
+$('#viewport').attr('content', 'user-scalable=yes, initial-scale=' + viewPortScale + ', width=device-width');
