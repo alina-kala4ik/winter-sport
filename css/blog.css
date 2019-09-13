@@ -117,7 +117,6 @@ form.search input[type="search"]:focus + button {
 aside ul h12 {
     display: block;
     margin: 40px 0;
-    font-size: 14px;
 }
 
 aside ul h12 span {
@@ -136,7 +135,7 @@ aside ul.archive li a {
     border-bottom: 2px solid #f2f2f2;
     padding-bottom: 15px;
     position: relative;
-    text-transform: capitalize;
+    text-transform: lowercase;
 }
 
 aside ul.categories li:not(:first-of-type) a,
@@ -219,8 +218,8 @@ aside ul.archive li a:hover {
         order: 1;
         width: 100%;
         -webkit-box-flex: 1;
-            -ms-flex: 1 1 460px;
-                flex: 1 1 460px;
+        -ms-flex: 1 1 460px;
+        flex: 1 1 460px;
     }
 
     aside {
@@ -260,5 +259,18 @@ aside ul.archive li a:hover {
 
     body article iframe {
         min-height: 315px;
+    }
+
+    body aside ul h12 {
+        font-size: 15px;
+    }
+
+    body aside ul h12 span {
+        font-size: 10px;
+    }
+
+    body aside ul.categories li a,
+    body aside ul.archive li a {
+        font-size: 12px;
     }
 }
