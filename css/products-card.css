@@ -379,8 +379,7 @@ ul.table .poduct:hover {
     box-shadow: 0px 0px 25px 0px rgba(242, 242, 242, 1);
 }
 
-ul.table .poduct:hover svg,
-ul.table .poduct:hover button.add-cart {
+ul.table .poduct:hover svg {
     display: block;
 }
 
