@@ -117,6 +117,7 @@ form.search input[type="search"]:focus + button {
 aside ul h12 {
     display: block;
     margin: 40px 0;
+    font-size: 14px;
 }
 
 aside ul h12 span {
