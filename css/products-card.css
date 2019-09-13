@@ -277,7 +277,9 @@ li.color.blue {
     color: white;
 }
 
-.button-filters {
+.button-filters,
+.button-categories
+{
     display: none;
 }
 
@@ -491,27 +493,15 @@ ul.line li div button.about-prodact {
         -webkit-box-direction: normal;
         -ms-flex-direction: row;
         flex-direction: row;
-        margin-bottom: 100px;
         position: relative;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 50px;
+                flex: 0 0 50px;
+        margin-bottom: 30px;
     }
 
-    .categories {
-        -webkit-box-flex: 1;
-        -ms-flex: 1 1 100%;
-        flex: 1 1 100%;
-        padding: 15px 0;
-    }
-
-    .categories li {
-        margin: 20px;
-    }
-
-
-    .categories > li {
-        border-bottom: 1px solid #c2c2c2;
-    }
-
-    .button-filters {
+    .button-filters,
+    .button-categories{
         display: inline-block;
         font-family: 'Montserrat', sans-serif;
         font-size: 20px;
@@ -525,16 +515,34 @@ ul.line li div button.about-prodact {
         border: none;
     }
 
-    .button-filters:hover {
-        cursor: pointer;
+    .button-filters{
+        right: 0;
     }
 
+    .button-categories{
+        left: 0;
+    }
+
+    .categories,
     .filters {
         display: none;
         position: absolute;
         z-index: 7;
-        top: 0;
-        right: 130px;
+        left: 0;
+        right: 0;
+        top: 50px;
+    }
+
+    .categories {
+        padding: 0;
+    }
+
+    .categories > li {
+        border-bottom: 1px solid #c2c2c2;
+    }
+
+    .categories li {
+        padding: 15px 0;
     }
 
     .filters > li {

@@ -43,12 +43,28 @@ button_filters.addEventListener('click', function (event) {
     }
 });
 
+//показать категори товаров на мобильном устройстве
+var button_categories = document.querySelector('.button-categories');
+var categories = document.querySelector('.categories');
+
+button_categories.addEventListener('click', function (event) {
+    event.preventDefault();
+    var display_now = window.getComputedStyle(categories).display;
+    if (display_now === 'block') {
+        categories.style.display = 'none'
+    } else {
+        categories.style.display = 'block'
+    }
+});
+
+
+//назначение анимации для карточек продукции в зависимости от количества картинок
+
 var scroll_image_prodact = document.querySelectorAll('.scroll-image-prodact');
 
 for (var i = 0; i < scroll_image_prodact.length; i++) {
 
-    var children = scroll_image_prodact[i].children
-    console.log(children)
+    var children = scroll_image_prodact[i].children;
 
     switch (children.length) {
         case 2:
