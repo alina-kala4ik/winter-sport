@@ -24,6 +24,7 @@ popup_menu.addEventListener('click', function (event) {
 })
 //закрыть меню
 popup_menu_ul_a.addEventListener('click', function (event) {
+    event.preventDefault();
     popup_menu.style.display = "none";
 })
 //перехват всплытия у ul
@@ -49,6 +50,7 @@ popup_search.addEventListener('click', function (event) {
 })
 //закрыть поиск
 popup_search_a.addEventListener('click', function (event) {
+    event.preventDefault();
     popup_search.style.display = "none";
 })
 //закрыть поиск при нажатии esc
