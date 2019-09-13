@@ -1,9 +1,11 @@
 var menu = document.querySelector('.menu');
 var popup_menu = document.querySelector('.popup-menu');
 var popup_menu_ul = popup_menu.querySelector('ul');
+var popup_menu_ul_a = popup_menu.querySelector('ul > a');
 
 var search = document.querySelector('.search');
 var popup_search = document.querySelector('.popup-search');
+var popup_search_a = document.querySelector('.popup-search > a');
 var popup_search_label = popup_search.querySelector('form');
 var popup_search_button = popup_search.querySelector('button');
 
@@ -18,6 +20,10 @@ menu.addEventListener('click', function (event) {
 })
 //закрыть меню
 popup_menu.addEventListener('click', function (event) {
+    popup_menu.style.display = "none";
+})
+//закрыть меню
+popup_menu_ul_a.addEventListener('click', function (event) {
     popup_menu.style.display = "none";
 })
 //перехват всплытия у ul
@@ -39,6 +45,10 @@ search.addEventListener('click', function (event) {
 })
 //закрыть поиск
 popup_search.addEventListener('click', function (event) {
+    popup_search.style.display = "none";
+})
+//закрыть поиск
+popup_search_a.addEventListener('click', function (event) {
     popup_search.style.display = "none";
 })
 //закрыть поиск при нажатии esc
