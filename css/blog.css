@@ -36,10 +36,6 @@ article iframe {
     margin: 40px auto;
 }
 
-article iframe {
-    min-height: 515px;
-}
-
 article div {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -76,9 +72,7 @@ article p {
 
 
 aside {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 270px;
-    flex: 0 0 270px;
+    width: 370px;
     padding-left: 15px;
 }
 
@@ -259,18 +253,5 @@ aside ul.archive li a:hover {
 
     body article iframe {
         min-height: 315px;
-    }
-
-    body aside ul h12 {
-        font-size: 15px;
-    }
-
-    body aside ul h12 span {
-        font-size: 10px;
-    }
-
-    body aside ul.categories li a,
-    body aside ul.archive li a {
-        font-size: 12px;
     }
 }
