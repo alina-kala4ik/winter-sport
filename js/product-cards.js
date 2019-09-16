@@ -66,10 +66,6 @@ if (window.matchMedia("(max-width: 850px)").matches) {
             list_categories[i].addEventListener('click', function () {
                 categories.style.display = 'none'
             })
-        } else {
-            list_categories[i].addEventListener('click', function () {
-                this.children[2].style.display = 'block'
-            })
         }
     }
 

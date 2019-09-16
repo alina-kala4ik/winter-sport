@@ -565,10 +565,6 @@ ul.line li div button.about-prodact {
     body ul.table .poduct:hover button.add-cart {
         display: none;
     }
-
-    .categories input:checked + label + ul{
-        display: none;
-    }
 }
 
 @media only screen and (max-width: 570px) {
@@ -582,8 +578,6 @@ ul.line li div button.about-prodact {
         width: 200px;
     }
 }
-
-ul.scroll-image-prodact {}
 
 .scroll-image-prodact li:not(:first-child) {
     display: none;
