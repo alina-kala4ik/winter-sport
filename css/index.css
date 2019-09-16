@@ -424,7 +424,7 @@ main .last-news a:not(:last-child) {
 main .last-news a div {
     position: relative;
     margin-bottom: 30px;
-    min-height: 150px;
+    height: 300px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

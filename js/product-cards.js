@@ -57,6 +57,30 @@ button_categories.addEventListener('click', function (event) {
     }
 });
 
+//закрыть категории товаров при выборе одной из них
+
+var list_categories = document.querySelectorAll('.categories > li');
+
+for (var i = 0; i < list_categories.length; i++) {
+    if (list_categories[i].children.length < 3) {
+        list_categories[i].addEventListener('click', function () {
+            categories.style.display = 'none'
+        })
+    } else {
+        list_categories[i].addEventListener('click', function () {
+            this.children[2].style.display = 'block'
+        })
+    }
+}
+
+
+var list_subclasses_categories = document.querySelectorAll('.categories > li > ul > li');
+
+for(var i = 0; i < list_subclasses_categories.length; i++){
+    list_subclasses_categories[i].addEventListener('click', function () {
+            categories.style.display = 'none'
+        })
+}
 
 //назначение анимации для карточек продукции в зависимости от количества картинок
 
